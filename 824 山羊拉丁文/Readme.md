@@ -18,6 +18,7 @@
 >例如，在第一个单词后添加"a"，在第二个单词后添加"aa"，以此类推。
 返回将 S 转换为山羊拉丁文后的句子。
 
+
 示例 1:
 -----
 输入: "I speak Goat Latin"
@@ -29,6 +30,7 @@
 输入: "The quick brown fox jumped over the lazy dog"
 
 输出: "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"
+
 
 说明:
 -----
