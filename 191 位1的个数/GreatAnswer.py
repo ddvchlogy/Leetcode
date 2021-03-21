@@ -24,3 +24,10 @@ class Solution:
 
     # n & 1 判断末位是否是1
     # n>>=1 去掉末位
+
+
+n = 0b00000000000000000000000000001011
+a = Solution()
+print(a.hammingWeight1(n))
+print(a.hammingWeight2(n))
+print(a.hammingWeight3(n))

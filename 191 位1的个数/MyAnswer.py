@@ -6,3 +6,8 @@ class Solution:
             if int(num) == 1:
                 sum += 1
         return sum
+
+
+n = 0b00000000000000000000000000001011
+a = Solution()
+print(a.hammingWeight(n))
