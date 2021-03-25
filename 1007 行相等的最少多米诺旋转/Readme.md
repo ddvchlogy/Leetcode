@@ -13,7 +13,7 @@
 示例 1：
 -----
 
-![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/03/08/domino.png)
+![](https://i.loli.net/2021/03/26/rlNUytG1edOcsi5.png)
 ```
 输入：A = [2,1,2,4,2,2], B = [5,2,6,2,3,2]
 输出：2
