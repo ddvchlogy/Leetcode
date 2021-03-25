@@ -1,9 +1,10 @@
 class Solution:
     def maxSubArray(self, nums: [int]) -> int:
-        dp = [0] * (len(nums) + 1)
-        ans = nums[0]
-        for i, num in enumerate(nums,1):
-            dp[i] = max(num, dp[i - 1] + num)
+        m = len(nums)
+        dp = [0] * m
+        ans = dp[0] = nums[0]
+        for i in range(1,m):
+            dp[i] = max(nums[i], dp[i-1] + nums[i])
             ans = max(ans, dp[i])
         return ans
 
@@ -11,6 +12,6 @@ class Solution:
 
 
 s = Solution()
-nums = [-1]
+nums = [-2,1,-3,4,-1,2,1,-5,4]
 res = s.maxSubArray(nums)
 print(res)
